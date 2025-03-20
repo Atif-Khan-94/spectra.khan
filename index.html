@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectra Optical</title>
+    <link rel="stylesheet" href="optics.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="logo.webp" alt="Spectra Optical Logo" class="logo">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        </div>
+        <div class="nav-links">
+            <div class="close-icon" onclick="closeMenu()">✖</div>
+            <a href="#home" class="H">Home</a>
+            <a href="#products">Men Glasses</a>
+            <a href="#products">Women Glasses</a>
+            <a href="#products">Lens</a>
+            <a href="#products">Contact Lens</a>
+            <a href="#products">Kids</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+
+    <!-- Hero Section with Banner Slider -->
+    <section class="hero" id="home">
+        <div class="slide active" style="background-image: url(banner.webp);"></div>
+        <div class="slide" style="background-image: url(bannner2.webp);"></div>
+        <div class="slide" style="background-image: url(banner3.webp);"></div>
+    </section>
+    <section class="why-choose-us">
+        <h2>Why <span>Choose</span> Us?</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="img1.webp" alt="">
+                <h3><span>High-Quality</span> Lenses & Frames</h3>
+                <p>Premium frames and  high-quality lenses for superior clarity, durability, and style. Experience comfort and precision with expert craftsmanship.</p>
+            </div>
+            <div class="feature">
+                <img src="img2.webp" alt="">
+                <h3><span>Affordable</span> Prices</h3>
+                <p>Get premium frames and high-quality lenses at an affordable price. Experience durability, clarity, and style without compromising on budget.</p>
+            </div>
+            <div class="feature">
+                <img src="img3.webp" alt="">
+                <h3><span>Expert</span> Consultation & Eye Care</h3>
+                <p>Get expert consultation and premium eye care for perfect vision. Experience professional guidance, advanced solutions, and personalized service for healthy eyes.</p>
+            </div>
+        </div>
+        <button class="cta-button">Shop Now</button>
+    </section>
+    <section id="limited-offer" class="offer-section">
+        <div class="container">
+            <h2><span>🔥 One Time Offer</span> – Order Now 🔥</h2>
+            <div id="countdown" class="countdown">1st on Your order <span id="timer"></span></div>
+            <p class="bonus">🎁 <span>Order Now</span> & Get Free Blue Cut Lens + 1/2-Year Warranty!</p>
+            <button class="cta">Claim Your Discount Now!</button>
+            <p class="reviews">⭐ Trusted by Thousands ⭐</p>
+        </div>
+    </section>
+    
+            <section id="premium-section" class="premium-section">
+                <h2>👓 <span> Our Premium </span> Frames & Lenses</h2>
+                <div class="feature-box">
+                    <img src="img4.webp">
+                    <div>
+                        <h3>High-Quality Frames</h3>
+                        <p>Made from Titanium & Acetate for durability and comfort.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <img src="img5.webp" alt="Advanced Lens">
+                    <div>
+                        <h3>Advanced Lenses</h3>
+                        <p>Anti-Glare, UV Protection & Blue Light Filter technology.</p>
+                    </div>
+                </div>
+                <h3>⭐ Normal vs. Premium Lenses</h3>
+                <table>
+                    <tr><th>Feature</th><th>Normal Lenses</th><th>Premium Lenses</th></tr>
+                    <tr><td>Durability</td><td>Low</td><td>High</td></tr>
+                    <tr><td>UV Protection</td><td>No</td><td>Yes</td></tr>
+                    <tr><td>Anti-Glare</td><td>No</td><td>Yes</td></tr>
+                </table>
+                <button class="cta">Explore Our Collection</button>
+            </section>
+            <div class="banner" id="banner">
+                <div class="banner-content">
+                    <p>BUY IN BULK & SAVE MORE</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+    <script src="optics.js"></script>
+</body>
+
+</html>
